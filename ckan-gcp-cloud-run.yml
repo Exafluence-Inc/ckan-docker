@@ -143,7 +143,7 @@ spec:
             - name: CKAN_SMTP_SERVER
               value: smtp.corporateict.domain:25
             - name: CKAN_SMTP_STARTTLS
-              value: true
+              value: "true"
             - name: CKAN_SMTP_USER
               value: user
             - name: CKAN_SMTP_PASSWORD
@@ -171,7 +171,7 @@ spec:
             - name: CKAN__DATAPUSHER__CALLBACK_URL_BASE
               value: http://ckan:5000
             - name: DATAPUSHER_REWRITE_RESOURCES
-              value: true
+              value: "true"
             - name: DATAPUSHER_REWRITE_URL
               value: http://ckan:5000
             - name: NGINX_PORT
